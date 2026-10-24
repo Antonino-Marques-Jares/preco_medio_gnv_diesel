@@ -13,23 +13,17 @@
 ## Passo 3:
   Execute python etl_atualizar_preco_medio_gnv_diesel_no_site.py
   
-- SELECT
--
--        ESTADO,
--        
--        PRODUTO,
--        
--        MES_ANO,
--        
--        AVG(VL_VENDA) AS VL_VENDA_MEDIO
--        
--    FROM gnv
--    
--    WHERE PRODUTO = ?
--    
--    GROUP BY ESTADO, MES_ANO
--    
--    ORDER BY ESTADO, MES_ANO
+```sql
+SELECT
+    ESTADO,
+    PRODUTO,
+    MES_ANO,
+    AVG(VL_VENDA) AS VL_VENDA_MEDIO
+FROM gnv
+WHERE PRODUTO = ?
+GROUP BY ESTADO, MES_ANO
+ORDER BY ESTADO, MES_ANO
+```
   
 
 # Saiba mais em: 
