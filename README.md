@@ -25,5 +25,5 @@
   
 
 # Saiba mais em: 
-[Ativo - Área de Trampo]([https://www.areadetrampo.com.br/preco-medio-de-combustiveis-2004-a-2024-e-eventos-relevantes/](https://www.areadetrampo.com.br/ativo/))
+[Ativo - Área de Trampo][https://www.areadetrampo.com.br/ativo/]
 
