@@ -12,6 +12,11 @@
   
 ## Passo 3:
   Execute python etl_atualizar_preco_medio_gnv_diesel_no_site.py
+
+
+# Resultado é um JSON que calcula a média agrupado por produto, estado, mes_ano
+
+Executa 3 vezes a SQL a seguir um para dada produto e depois une os 3 resultados e 1 json
   
 ```sql
 SELECT
