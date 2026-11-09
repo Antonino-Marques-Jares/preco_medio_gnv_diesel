@@ -29,7 +29,9 @@ WHERE PRODUTO = ?
 GROUP BY ESTADO, MES_ANO
 ORDER BY ESTADO, MES_ANO
 ```
-  
+## Passo 4:
+Apagar gnv.db e csv's em direto ETL > PRATA
+Manter apanas csv's em nível ETL > BRONZE (proxima atualização adicionar ultimo csv aqui)
 
 # Saiba mais em: 
 [Ativo - Área de Trampo](https://www.areadetrampo.com.br/ativo/)
