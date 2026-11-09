@@ -11,7 +11,7 @@
   pip install -r requirements.txt
   
 ## Passo 3:
-  Execute python etl_atualizar_preco_medio_gnv_diesel_no_site.py
+  Execute python etl_preco_medio_gnv_diesel.py
 
 
 # Resultado é um JSON que calcula a média agrupado por produto, estado, mes_ano
